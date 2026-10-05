@@ -1,0 +1,12 @@
+{
+  "name": "gesture-lab",
+  "version": "0.1.0",
+  "description": "Hand-gesture playground for Rokid Glasses (AIUI)",
+  "type": "module",
+  "scripts": {
+    "start": "aix preview . --dev --launch",
+    "test": "node --test",
+    "pack": "aix pack . -o gesture-lab.aix",
+    "deploy": "aix install . && aix launch-page ."
+  }
+}

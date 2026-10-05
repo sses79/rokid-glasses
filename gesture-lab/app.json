@@ -1,0 +1,13 @@
+{
+  "name": "Gesture Lab",
+  "description": "Hand-gesture playground: the camera tracks your hand and drives the on-glasses UI.",
+  "pages": [
+    "pages/index/index"
+  ],
+  "permissions": [
+    "CAMERA"
+  ],
+  "window": {
+    "navigationBarTitleText": "Gesture Lab"
+  }
+}

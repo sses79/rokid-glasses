@@ -1,0 +1,13 @@
+{
+  "name": "hello-agent",
+  "version": "1.0.0",
+  "description": "A JSUI Agent project",
+  "main": "app.js",
+  "scripts": {
+    "start": "aix preview . --dev --launch",
+    "pack": "aix pack . -o hello-agent.aix",
+    "device": "aix device",
+    "deploy": "aix install . && aix launch-page ."
+  },
+  "dependencies": {}
+}
