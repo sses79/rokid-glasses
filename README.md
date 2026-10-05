@@ -52,3 +52,9 @@ adb exec-out screencap -p > screen.png
 adb logcat -s GestureLab     # native app
 adb logcat -s Ink            # AIUI agents
 ```
+
+## Licence
+
+MIT, see [LICENSE](LICENSE). The hand-landmark model in
+`gesture-native/app/src/main/assets/` is Google's MediaPipe Hand Landmarker,
+distributed under Apache-2.0.
